@@ -283,7 +283,7 @@ def generate_compliment(generation_instruction: str):
         allowed_connect_srcs=["https://cdn.jsdelivr.net"],
         dangerously_disable_trusted_types=True,
     ),
-    title="Imagen Creative Studio | Villeroy & Boch",
+    title="V&B Decoration Studio",
 )
 def app():
     """Mesop App"""
@@ -355,7 +355,7 @@ def app():
                 ):
                     with me.box(style=_BOX_STYLE):
                         me.text(
-                            "Prompt for image generation and bathroom inspiration",
+                            "Prompt for image generation and decoration ideas",
                             style=me.Style(font_weight=500),
                         )
                         me.box(style=me.Style(height=16))
@@ -621,9 +621,11 @@ def app():
                                             style=me.Style(
                                                 width="300px",
                                                 margin=me.Margin(top=10),
-                                                border_radius="35px",
+                                                border_radius="35px"
                                             ),
+                                          
                                         )
+                                        
 
                                 # SynthID notice
                                 with me.box(
