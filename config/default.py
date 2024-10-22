@@ -46,7 +46,7 @@ class GeminiModelConfig:
 class Config:
     """All configuration variables for this solution should be managed here."""
 
-    TITLE = "IMAGEN CREATIVE STUDIO"
+    TITLE = "IMAGEN Bathroom studio - Villeroy & Boch"
     IMAGE_CREATION_BUCKET = os.environ.get("IMAGE_CREATION_BUCKET", "")
     PROJECT_ID = os.environ.get("PROJECT_ID", "")
     LOCATION = os.getenv("LOCATION", "us-central1")
